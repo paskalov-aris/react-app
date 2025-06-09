@@ -6,7 +6,7 @@ const Products = () => {
   return (
     <section className="products" id="products">
       <h1 className="heading">
-        latest <span>products</span>
+        Latest <span>products</span>
       </h1>
       <div className="box-container">
         {PRODUCT_LIST.map((product) => (
@@ -16,7 +16,7 @@ const Products = () => {
               <img src={product.image} alt="product" />
               <div className="icons">
                 <Link to={`/product/${product.id}`} className="cart-btn">
-                  add to cart
+                  Add to cart
                 </Link>
               </div>
             </div>

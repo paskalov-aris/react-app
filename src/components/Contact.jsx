@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <h1 className="heading">
-        contact <span>us</span>
+        Contact <span>us</span>
       </h1>
 
       <div className="row">
@@ -45,7 +45,7 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" className="btn">
-            send message
+            Send message
           </button>
           {submitted && (
             <p

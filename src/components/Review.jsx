@@ -4,7 +4,7 @@ const Review = () => {
   return (
     <section className="review" id="review">
       <h1 className="heading">
-        відгуки 
+        Відгуки 
       </h1>
       <div className="box-container">
         <div className="box">
@@ -23,7 +23,7 @@ const Review = () => {
             <img src="/images/user-1.jpg" alt="user" />
             <div className="user-info">
               <h3>Оксана</h3>
-              <span>постійна клієнтка</span>
+              <span>Постійна клієнтка</span>
             </div>
           </div>
         </div>

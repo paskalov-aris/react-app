@@ -24,7 +24,7 @@ const DailyFortune = () => {
   return (
     <section className="products" id="fortune">
       <h1 className="heading">
-        твоє <span>передбачення</span>
+        Твоє <span>передбачення</span>
       </h1>
       <div className="box-container">
         <div className="box">

@@ -3,7 +3,7 @@ const About = () => {
     <section className="about" id="about">
       <h1 className="heading">
         {" "}
-        <span>про</span> нас{" "}
+        <span>Про</span> нас{" "}
       </h1>
       <div className="row">
         <div className="video-container">

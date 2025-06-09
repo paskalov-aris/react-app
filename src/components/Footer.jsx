@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
       </div>
       <div className="credit">
         &copy; {new Date().getFullYear()} <span>BeautySalon</span> | Всі права
-        захищено
+        захищено | <Link to="/author">Про автора</Link>
       </div>
     </section>
   );
