@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ContactSvg from '../assets/images/contact-img.svg';
+import { GoogleMap } from './GoogleMap';
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -63,6 +64,15 @@ const Contact = () => {
 
         <div className="image">
           <img src={ContactSvg} alt="contact" />
+        </div>
+      </div>
+
+      <div className="map-section">
+        <h2 className="map-heading">
+          Як <span>нас знайти</span>
+        </h2>
+        <div className="map-container">
+          <GoogleMap />
         </div>
       </div>
     </section>
