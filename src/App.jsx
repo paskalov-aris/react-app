@@ -8,20 +8,11 @@ import Products from "./components/Products";
 import Review from "./components/Review";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { AppRoutes } from "./components/AppRoutes";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Home />
-      <About />
-      <Icons />
-      <DailyFortune/>
-      <Products />
-      <Review />
-      <Contact/>
-      <Footer />
-    </>
+    <AppRoutes />
   );
 }
 
