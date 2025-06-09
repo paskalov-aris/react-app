@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Home = () => {
   return (
     <section className="home" id="home">
@@ -9,9 +11,9 @@ const Home = () => {
           домом: від натуральної косметики до ефективної побутової хімії.
           Якість, безпека та доступність — наші головні пріоритети.
         </p>
-        <a href="#products" className="btn">
+        <Link to="#products" className="btn">
           До послуг
-        </a>
+        </Link>
       </div>
     </section>
   );

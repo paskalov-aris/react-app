@@ -26,10 +26,6 @@ const Header = () => {
           </>
         )}
       </nav>
-      <div className="icons">
-        <a href="#" className="fas fa-heart"></a>
-        <a href="#" className="fas fa-user"></a>
-      </div>
     </header>
   );
 };

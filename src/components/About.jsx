@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const About = () => {
   return (
     <section className="about" id="about">
@@ -21,9 +23,9 @@ const About = () => {
             еко-стандартам.
           </p>
           <p>Запишись сьогодні та відчуй себе королевою!</p>
-          <a href="#contact" className="btn">
+          <Link to="#contact" className="btn">
             Більше
-          </a>
+          </Link>
         </div>
       </div>
     </section>
