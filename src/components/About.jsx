@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import AboutVideo from '../assets/videos/about-vid.mp4';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       </h1>
       <div className="row">
         <div className="video-container">
-          <video src="/images/about-vid.mp4" autoPlay loop muted playsInline />
+          <video src={AboutVideo} autoPlay loop muted playsInline />
           <h3>Поринь в гармонію</h3>
         </div>
 

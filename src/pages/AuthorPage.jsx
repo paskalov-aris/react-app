@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import AuthorPhoto from "../assets/author-photo.jpeg";
+import AuthorPhoto from "../assets/images/author-photo.jpeg";
 
 export const AuthorPage = () => {
   useEffect(() => {

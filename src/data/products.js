@@ -1,8 +1,18 @@
+import Img1 from '../assets/images/img-11.jpg';
+import Img2 from '../assets/images/img-22.jpg';
+import Img3 from '../assets/images/img-33.jpg';
+import Img4 from '../assets/images/img-44.jpg';
+import Img5 from '../assets/images/img-55.jpg';
+import Img6 from '../assets/images/img-66.jpg';
+import Img7 from '../assets/images/img-77.jpg';
+import Img8 from '../assets/images/img-88.jpg';
+import Img9 from '../assets/images/img-99.jpg';
+
 export const PRODUCT_LIST = [
   {
     id: 1,
     discount: "-10%",
-    image: "/images/img-11.jpg",
+    image: Img1,
     title: "Натуральний крем для обличчя",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -18,7 +28,7 @@ export const PRODUCT_LIST = [
   {
     id: 2,
     discount: "-15%",
-    image: "/images/img-22.jpg",
+    image: Img2,
     title: "Очищаючий гель для тіла",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -34,7 +44,7 @@ export const PRODUCT_LIST = [
   {
     id: 3,
     discount: "-5%",
-    image: "/images/img-33.jpg",
+    image: Img3,
     title: "Шампунь для всіх типів волосся",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -50,7 +60,7 @@ export const PRODUCT_LIST = [
   {
     id: 4,
     discount: "-20%",
-    image: "/images/img-44.jpg",
+    image: Img4,
     title: "Маска для волосся",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -66,7 +76,7 @@ export const PRODUCT_LIST = [
   {
     id: 5,
     discount: "-17%",
-    image: "/images/img-55.jpg",
+    image: Img5,
     title: "Бальзам для губ",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -82,7 +92,7 @@ export const PRODUCT_LIST = [
   {
     id: 6,
     discount: "-3%",
-    image: "/images/img-66.jpg",
+    image: Img6,
     title: "Скраб для тіла",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -98,7 +108,7 @@ export const PRODUCT_LIST = [
   {
     id: 7,
     discount: "-18%",
-    image: "/images/img-77.jpg",
+    image: Img7,
     title: "Сироватка для обличчя",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -114,7 +124,7 @@ export const PRODUCT_LIST = [
   {
     id: 8,
     discount: "-10%",
-    image: "/images/img-88.jpg",
+    image: Img8,
     title: "Лосьйон для тіла",
     price: "$12.99",
     oldPrice: "$15.99",
@@ -130,7 +140,7 @@ export const PRODUCT_LIST = [
   {
     id: 9,
     discount: "-5%",
-    image: "/images/img-99.jpg",
+    image: Img9,
     title: "Тонік для обличчя",
     price: "$12.99",
     oldPrice: "$15.99",

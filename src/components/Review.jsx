@@ -1,4 +1,5 @@
 import React from "react";
+import User1Image from '../assets/images/pic-2.png';
 
 const Review = () => {
   return (
@@ -20,15 +21,13 @@ const Review = () => {
             нова людина.
           </p>
           <div className="user">
-            <img src="/images/user-1.jpg" alt="user" />
+            <img src={User1Image} alt="user" />
             <div className="user-info">
               <h3>Оксана</h3>
               <span>Постійна клієнтка</span>
             </div>
           </div>
         </div>
-
-        {/* Додай інші відгуки аналогічно */}
       </div>
     </section>
   );

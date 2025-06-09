@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ContactSvg from '../assets/images/contact-img.svg';
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -61,7 +62,7 @@ const Contact = () => {
         </form>
 
         <div className="image">
-          <img src="/images/contact-img.svg" alt="contact" />
+          <img src={ContactSvg} alt="contact" />
         </div>
       </div>
     </section>
