@@ -2,8 +2,11 @@ import React, { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AuthorPhoto from "../assets/images/author-photo.jpeg";
+import { useUpdateTitle } from "../hooks/useUpdateTitle";
 
 export const AuthorPage = () => {
+  useUpdateTitle("Про автора");
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -9,9 +9,12 @@ import Products from "../components/Products";
 import Review from "../components/Review";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { useUpdateTitle } from "../hooks/useUpdateTitle";
 
 export const HomePage = () => {
   const location = useLocation();
+
+  useUpdateTitle("Твоя краса — наша турбота");
 
   // Обработка якорей при переходе на главную страницу
   useEffect(() => {
